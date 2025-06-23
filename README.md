@@ -30,3 +30,6 @@ ERPNext (Frappe REST API)
 ⚙️ Use Case
 Ideal for departments or colleges to raise purchase requests hands-free — simply say:
 “Create material request for 10 chairs” ✅
+
+
+![ARCHITECTURE DIAGRAM](https://github.com/user-attachments/assets/939b7ebf-d024-41f4-8720-0f8582a079d1)
