@@ -3,18 +3,28 @@ ERPVoice is a Streamlit-based voice-enabled assistant that lets users create Mat
 
 🚀 Features
 🎧 Voice Command Recognition (Speech-to-Text)
+
 🧠 Command Parsing using NLP Logic
+
 📦 Creates Material Requests in ERPNext via REST API
+
 📝 Manual Request Interface (Dropdown + Quantity Input)
+
 🔊 Text-to-Speech Feedback for confirmations
+
 📜 Request History Viewer in-app
+
 💡 Built with Streamlit, OpenAI Whisper/SpeechRecognition, and ERPNext REST API
 
 📦 Tech Stack
 Python 3.11+
+
 Streamlit
+
 SpeechRecognition (or Whisper)
+
 gTTS (Text-to-Speech)
+
 ERPNext (Frappe REST API)
 
 ⚙️ Use Case
