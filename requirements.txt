@@ -1,6 +1,7 @@
 streamlit
 requests
-openai
+gtts
 python-dotenv
+openai
 SpeechRecognition
-pyaudio
+pyaudio ; platform_system == "Windows"
