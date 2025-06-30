@@ -1,6 +1,0 @@
-streamlit
-requests
-openai
-python-dotenv
-SpeechRecognition
-pyaudio
