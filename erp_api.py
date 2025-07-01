@@ -24,7 +24,7 @@ def create_material_request(item, qty, api_key, api_secret):
     }
 
     try:
-        url = "http://localhost:8000/api/resource/Material Request"
+        url = "https://7f6b-2401-4900-2316-7c23-71a1-1133-bd11-a771.ngrok-free.app"
         response = requests.post(url, json=data, headers=headers)
         return response.json()
     except Exception as e:
@@ -37,7 +37,7 @@ def approve_material_request(request_name, api_key, api_secret):
         "Content-Type": "application/json"
     }
 
-    url = f"http://localhost:8000/api/resource/Material Request/{request_name}"
+    url = f"https://7f6b-2401-4900-2316-7c23-71a1-1133-bd11-a771.ngrok-free.app/{request_name}"
 
     try:
         # Submitting by updating docstatus = 1
@@ -64,7 +64,7 @@ def get_draft_requests(api_key, api_secret, user_email=None):
     }
 
     try:
-        url = "http://localhost:8000/api/resource/Material Request"
+        url = "https://7f6b-2401-4900-2316-7c23-71a1-1133-bd11-a771.ngrok-free.app"
         response = requests.get(url, headers=headers, params=params)
         return response.json().get("data", [])
     except Exception as e:
