@@ -28,7 +28,7 @@ def erpnext_login(email, api_key, api_secret):
         "Content-Type": "application/json"
     }
     try:
-        url = "https://7f6b-2401-4900-2316-7c23-71a1-1133-bd11-a771.ngrok-free.app"
+        url = "http://localhost:8000/api/resource/User"
         res = requests.get(url, headers=headers)
         return res.status_code == 200
     except:
