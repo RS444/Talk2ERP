@@ -3,5 +3,3 @@ requests
 gtts
 python-dotenv
 openai
-SpeechRecognition
-pyaudio ; platform_system == "Windows"
